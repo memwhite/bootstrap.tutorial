@@ -114,3 +114,23 @@ h1>They're not aliens, they're Earth…liens!</h1>
   how that weighs on the heart so don't lie to me!</strong> <em> *Insistently* Bow
   ties are cool!</em> Come on Amy, I'm a normal bloke, tell me what normal blokes do!
 </p>
+
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+List Styles:
+
+//list-unstyled will take the default styling out of the
+list. This includes removing bullet points or numbers.
+Example format:
+<ul class="list-unstyled"></ul>
+
+//list-inline will change the list from being one on top
+of each other, to side by side...as well as remove styling.
+Example format:
+<ul class="list-inline"></ul>
+
+//You can't add list-inline to <dt> tags, so there is
+  another option. This is dl-horizontal
+Example format:
+  <dt class="dl-horizontal"></dt>
